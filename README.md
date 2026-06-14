@@ -6,4 +6,4 @@ Building agentic AI systems, RAG pipelines, and LLM-powered applications.
 
 ## Live site
 
-https://akshatharkk.github.io
+https://akshathaark.github.io
