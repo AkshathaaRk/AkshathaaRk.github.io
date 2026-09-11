@@ -11,10 +11,10 @@ const projects = [
     name: 'MedSearchXR',
     tagline: 'AI-powered medical X-ray search engine',
     description:
-      'End-to-end medical imaging retrieval — image-based and text-based search across an 848-image, 5-category X-ray dataset. ResNet50 embeddings, TF-IDF text pipeline with linguistic variation mapping, Streamlit UI.',
+      'End-to-end medical imaging retrieval — image-based and text-based search across an 848-image, 5-category X-ray dataset. ResNet50 embeddings, TF-IDF text pipeline with linguistic variation handled via preprocessing and normalization.',
     stack: ['Python', 'PyTorch', 'ResNet50', 'Scikit-learn', 'TF-IDF', 'Streamlit'],
     metrics: [
-      { v: '0.91–1.00', l: 'cosine similarity (in-category)' },
+      { v: '0.91–1.00', l: 'cosine similarity (in-category) — validated via systematic similarity testing across categories' },
       { v: '<3s', l: 'avg query time' },
       { v: '5×', l: 'category boost on TF-IDF' },
     ],
@@ -24,7 +24,7 @@ const projects = [
     name: 'SAHAAYAK',
     tagline: 'Multilingual AI tutor',
     description:
-      'React + TypeScript frontend with real-time chat and voice via Web Speech API + Gemini streaming. MCP-based conversational memory backed by Redis. Language fallback handles mixed Indian-language input gracefully.',
+      'React + TypeScript frontend with real-time chat and voice via Web Speech API + Gemini streaming. MCP-based conversational memory backed by Redis. Language fallback handles mixed Indian-lang inputs; language fallback was tested against mixed-input edge cases to ensure graceful degradation.',
     stack: ['Flask', 'React', 'TypeScript', 'Gemini API', 'Redis', 'MCP'],
     metrics: [
       { v: 'Multi', l: 'Indian languages' },
@@ -37,12 +37,25 @@ const projects = [
     name: 'GalaxyEye',
     tagline: 'Multi-agent AI automation system',
     description:
-      'An n8n workflow that classifies user intent and routes to 5 specialised agents (Chat, Coding, Task, File, LLM Reasoning). Gemini API for reasoning. Containerised with Docker and exposed via Cloudflare Tunnel — zero cloud cost.',
+      'An n8n workflow that classifies user intent and routes to 5 specialised agents (Chat, Coding, Task, File, LLM Reasoning). Gemini API for reasoning. Containerised with Docker and exposed via Cloudflare — workflow routing was validated against misclassification scenarios to ensure safe fallbacks.',
     stack: ['Python', 'n8n', 'Docker', 'Gemini API', 'LangChain', 'Cloudflare'],
     metrics: [
       { v: '5', l: 'specialised agents' },
       { v: '$0', l: 'cloud cost' },
       { v: 'Cross', l: 'device access' },
+    ],
+  },
+  {
+    n: '04',
+    name: 'Functional Test Design — Registration Module',
+    tagline: 'Comprehensive test-scenario suite for user registration',
+    description:
+      'Designed a thorough functional test suite for a registration flow covering positive, negative, and edge-case scenarios. Produced reusable test cases, acceptance criteria, and example automation hooks to accelerate QA integration.',
+    stack: ['Test Plans', 'Postman', 'Selenium', 'TestNG', 'JIRA'],
+    metrics: [
+      { v: '120+', l: 'test scenarios written' },
+      { v: '16', l: 'fields covered' },
+      { v: 'Security · Accessibility · Unicode · Edge-case', l: 'categories' },
     ],
   },
 ];
