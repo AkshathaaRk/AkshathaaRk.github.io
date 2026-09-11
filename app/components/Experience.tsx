@@ -27,7 +27,7 @@ export default function Experience() {
                 Jan 2026 — May 2026
               </div>
               <h3 className="serif text-3xl md:text-4xl text-ink leading-tight mb-2">
-                AI Engineer Intern
+                Software Testing Engineer Intern
               </h3>
               <p className="text-ink-muted text-lg">AI4SEES Pvt. Ltd.</p>
               <p className="text-ink-faint">Bangalore, India</p>
