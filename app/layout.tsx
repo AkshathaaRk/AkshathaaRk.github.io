@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Akshatha RK — AI/ML Engineer',
+  title: 'Akshatha RK — QA, Automation & AI/ML Engineer',
   description:
-    'Portfolio of Akshatha Rajshekar — AI/ML Engineer building agentic AI systems, RAG pipelines, and LLM-powered applications.',
+    'Portfolio of Akshatha Rajshekar — Engineer focused on QA, automation, backend systems, and reliable AI/ML pipelines.',
 };
 
 export default function RootLayout({

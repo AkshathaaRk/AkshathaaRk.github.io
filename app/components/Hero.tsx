@@ -61,7 +61,7 @@ export default function Hero() {
           >
             <p className="text-lg md:text-xl text-ink-soft leading-relaxed max-w-xl font-light">
               <ScrambleText
-                text="AI/ML Engineer based in Bangalore. I build agentic AI systems, RAG pipelines, and LLM-powered applications — quietly, carefully, with intent."
+                text="Engineer based in Bangalore focused on quality — test automation, backend systems, and reliable AI/ML pipelines that hold up under scrutiny."
                 startDelay={700}
                 scrambleDuration={42}
                 loop
