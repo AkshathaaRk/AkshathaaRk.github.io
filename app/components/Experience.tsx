@@ -4,7 +4,7 @@ import SectionReveal from './SectionReveal';
 import SectionHeader from './SectionHeader';
 
 const stats = [
-  { value: '99.47%', label: 'Classification accuracy' },
+  { value: '99.47%', label: 'Classification accuracy — validated across held-out folds to prevent overfitting' },
   { value: '44k+', label: 'X-ray images trained on' },
   { value: '5 mo', label: 'Internship duration' },
 ];
@@ -45,22 +45,25 @@ export default function Experience() {
                 <li className="leading-relaxed flex gap-3">
                   <span className="text-ink-faint shrink-0 select-none">—</span>
                   <span>
-                    Iterated through model architectures and hyperparameter
-                    sweeps until validation held against held-out folds.
+                    Designed and ran validation strategies (held-out fold testing) to systematically catch overfitting before models shipped — QA discipline applied to ML.
                   </span>
                 </li>
                 <li className="leading-relaxed flex gap-3">
                   <span className="text-ink-faint shrink-0 select-none">—</span>
                   <span>
-                    Built reproducible training and evaluation flows across
-                    multiple anatomical regions.
+                    Built reproducible evaluation pipelines across multiple anatomical regions, treating every model version as something that needed to be re-verified, not just re-trained.
                   </span>
                 </li>
                 <li className="leading-relaxed flex gap-3">
                   <span className="text-ink-faint shrink-0 select-none">—</span>
                   <span>
-                    Documented decisions and trade-offs so the next person can
-                    pick the work up cold.
+                    Owned data quality end-to-end (EDA, cleaning, preprocessing) — the same rigor as test-data validation in a QA workflow.
+                  </span>
+                </li>
+                <li className="leading-relaxed flex gap-3">
+                  <span className="text-ink-faint shrink-0 select-none">—</span>
+                  <span>
+                    Documented decisions, edge cases, and trade-offs so the next person could pick up the work cold — reproducibility as a first-class concern.
                   </span>
                 </li>
               </ul>
