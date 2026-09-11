@@ -5,52 +5,15 @@ import SectionHeader from './SectionHeader';
 
 const groups = [
   {
-    title: 'Testing',
+    title: 'TECHNICAL SKILLS',
     items: [
-      'Manual Testing: SDLC & STLC, test plans, test cases & scenarios, functional, regression, exploratory, compatibility, adhoc, performance testing, defect life cycle, Black Box testing, Agile/Scrum',
-      'Defect Tracking: Bugzilla, JIRA',
+      'Manual Testing: SDLC & STLC, test plans, test cases & scenarios, functional, regression, exploratory, compatibility, adhoc, performance testing, defect life cycle, agile methodology, Scrum.',
+      'Defect Tracking: Bugzilla, Jira',
+      'SQL: RDBMS concepts (tables, constraints, normalization), DQL, DDL, DML TCL, DCL, joins, subqueries & co-related subqueries, query writing',
+      'Java: OOP fundamentals - static/non-static, overloading & overriding, inheritance, polymorphism, abstraction, encapsulation, collections & exception handling',
       'Automation & API Testing: Selenium, XPath, TestNG, POM, Postman, REST APIs, CRUD, JSON',
-      'SQL: RDBMS concepts, DQL/DDL/DML/TCL/DCL, joins, subqueries, query writing',
+      'Languages & Tools: Java, HTML, CSS, Git/GitHub, Docker, Linux, JMeter/Loadrunner',
     ],
-  },
-  {
-    title: 'AI / ML',
-    items: [
-      'Machine Learning',
-      'Deep Learning',
-      'Generative AI',
-      'NLP',
-      'Prompt Engineering',
-      'LLM',
-      'RAG',
-      'Agentic AI',
-      'Multi-Agent Systems',
-    ],
-  },
-  {
-    title: 'Frameworks',
-    items: [
-      'PyTorch',
-      'TensorFlow',
-      'Scikit-learn',
-      'Keras',
-      'LangChain',
-      'LangGraph',
-      'MCP',
-      'FastAPI',
-      'Streamlit',
-      'OpenAI GPT',
-      'Matplotlib',
-      'Seaborn',
-    ],
-  },
-  {
-    title: 'Programming',
-    items: ['Python', 'Java (OOP fundamentals, Collections)', 'C (basics)'],
-  },
-  {
-    title: 'Tools',
-    items: ['Git & GitHub', 'Docker', 'n8n', 'Linux', 'HuggingFace', 'VSCode', 'Jupyter', 'VM'],
   },
 ];
 
