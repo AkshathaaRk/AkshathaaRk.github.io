@@ -7,8 +7,8 @@ import Bud from './Bud';
 const quickFacts = [
   { k: 'Based in', v: 'Bangalore, India' },
   { k: 'Role', v: 'AI Engineer Intern, AI4SEES' },
-  { k: 'Studying', v: 'BCA · CS-AIML · CGPA 8.75' },
-  { k: 'Focus', v: 'Agentic AI · RAG · CV' },
+  { k: 'Studied', v: 'BCA · Computer Science · CGPA 8.83' },
+  { k: 'Focus', v: 'Manual & Automation Testing · API Testing · Quality Engineering' },
 ];
 
 export default function About() {
@@ -19,34 +19,26 @@ export default function About() {
           number="01"
           label="About"
           title="A quiet love for"
-          italic="intelligent systems"
+          italic="systems that don't break."
         />
 
         <div className="grid md:grid-cols-12 gap-8 md:gap-16">
           <div className="md:col-span-7 space-y-5">
             <SectionReveal>
               <p className="text-lg md:text-xl text-ink-soft leading-relaxed font-light">
-                I&apos;m an AI/ML Engineer building agentic AI systems, RAG
-                pipelines, and LLM-powered applications.
+                I'm an Engineer focused on quality — test automation, backend systems, and the AI/ML pipelines they support.
               </p>
             </SectionReveal>
 
             <SectionReveal delay={0.1}>
               <p className="text-lg md:text-xl text-ink-soft leading-relaxed font-light">
-                I&apos;ve developed multi-agent workflows, multilingual NLP
-                systems, and production-grade computer vision pipelines using
-                Python, LangChain, Gemini API, n8n, and PyTorch. I care about
-                the small details — the prompt that actually works, the
-                pipeline that doesn&apos;t fall over at 2 a.m., the model that
-                generalises.
+                I've worked across manual and automation testing (functional, regression, exploratory, API), and built production-grade ML pipelines where validation and reproducibility mattered as much as the model itself. I care about the small details — the edge case nobody thought to check, the test that catches the regression before it ships, the pipeline that doesn't fall over at 2 a.m.
               </p>
             </SectionReveal>
 
             <SectionReveal delay={0.18}>
               <p className="text-lg md:text-xl text-ink-soft leading-relaxed font-light">
-                Open-source contributor with a track record of applying deep
-                learning and generative AI to real-world problems — and
-                honestly, just getting started.
+                Open-source contributor with a track record of applying rigorous testing and deep learning to real-world problems — and honestly, just getting started.
               </p>
             </SectionReveal>
           </div>
