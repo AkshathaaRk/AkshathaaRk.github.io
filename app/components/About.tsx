@@ -6,7 +6,7 @@ import Bud from './Bud';
 
 const quickFacts = [
   { k: 'Based in', v: 'Bangalore, India' },
-  { k: 'Role', v: 'AI Engineer Intern, AI4SEES' },
+  { k: 'Role', v: 'Software Testing Engineer Intern, AI4SEES' },
   { k: 'Studied', v: 'BCA · Computer Science · CGPA 8.83' },
   { k: 'Focus', v: 'Manual & Automation Testing · API Testing · Quality Engineering' },
 ];
@@ -26,7 +26,7 @@ export default function About() {
           <div className="md:col-span-7 space-y-5">
             <SectionReveal>
               <p className="text-lg md:text-xl text-ink-soft leading-relaxed font-light">
-                I'm an Engineer focused on quality — test automation, backend systems, and the AI/ML pipelines they support.
+                I'm a Software Testing Engineer focused on quality — test automation, backend systems, and the AI/ML pipelines they support.
               </p>
             </SectionReveal>
 

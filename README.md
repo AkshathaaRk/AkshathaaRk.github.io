@@ -1,8 +1,8 @@
 # AkshathaaRk.github.io
 
-Personal portfolio of **Akshatha RK** — Engineer focused on QA, automation, and reliable AI/ML systems.
+Personal portfolio of **Akshatha RK** — Software Testing Engineer based in Bangalore.
 
-Building systems that hold up under scrutiny through testing rigor, backend engineering, and reproducible ML pipelines.
+Focused on manual and automation testing, API testing, and quality engineering.
 
 ## Live site
 
