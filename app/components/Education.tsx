@@ -25,21 +25,21 @@ export default function Education() {
                 Community Institute of Commerce and Management Studies, Bangalore
               </p>
               <p className="text-ink-soft mb-6">
-                Majors: Computer Science · Artificial Intelligence & Machine Learning
+                Majors: Computer Science
               </p>
               <div className="flex flex-wrap gap-x-8 gap-y-3 pt-4 border-t border-ink-line">
                 <div>
                   <div className="mono text-[10px] uppercase tracking-widest text-ink-faint mb-1">
                     CGPA
                   </div>
-                  <div className="serif text-xl text-ink">8.75 (up to 5th sem)</div>
+                  <div className="serif text-xl text-ink">8.83</div>
                 </div>
                 <div>
                   <div className="mono text-[10px] uppercase tracking-widest text-ink-faint mb-1">
                     Status
                   </div>
                   <div className="serif text-xl text-ink">
-                    Degree completed · awaiting results
+                    Degree completed
                   </div>
                 </div>
               </div>

@@ -27,7 +27,7 @@ export default function Contact() {
           </div>
 
           <h2 className="serif text-5xl md:text-7xl lg:text-8xl text-ink leading-[1] font-medium tracking-tight mb-12 md:mb-16 max-w-5xl">
-            Let&apos;s build
+            Let's build
             <br />
             <em className="font-light italic">something honest</em>
             <span className="text-ink-faint">.</span>
@@ -37,9 +37,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-12 gap-8 md:gap-16 items-start">
           <SectionReveal delay={0.1} className="md:col-span-5">
             <p className="text-lg text-ink-soft leading-relaxed max-w-md">
-              I&apos;m open to AI/ML roles, collaborations, and thoughtful
-              conversations about agentic systems and the messy reality of
-              shipping ML. Reach out anywhere — I read everything.
+              I'm open to QA/Testing, Automation, and AI/ML roles — collaborations and thoughtful conversations about building systems that actually hold up under scrutiny.
             </p>
           </SectionReveal>
 

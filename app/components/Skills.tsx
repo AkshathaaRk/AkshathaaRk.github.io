@@ -5,6 +5,15 @@ import SectionHeader from './SectionHeader';
 
 const groups = [
   {
+    title: 'Testing',
+    items: [
+      'Manual Testing: SDLC & STLC, test plans, test cases & scenarios, functional, regression, exploratory, compatibility, adhoc, performance testing, defect life cycle, Black Box testing, Agile/Scrum',
+      'Defect Tracking: Bugzilla, JIRA',
+      'Automation & API Testing: Selenium, XPath, TestNG, POM, Postman, REST APIs, CRUD, JSON',
+      'SQL: RDBMS concepts, DQL/DDL/DML/TCL/DCL, joins, subqueries, query writing',
+    ],
+  },
+  {
     title: 'AI / ML',
     items: [
       'Machine Learning',
@@ -37,7 +46,7 @@ const groups = [
   },
   {
     title: 'Programming',
-    items: ['Python', 'Java', 'C (basics)'],
+    items: ['Python', 'Java (OOP fundamentals, Collections)', 'C (basics)'],
   },
   {
     title: 'Tools',
